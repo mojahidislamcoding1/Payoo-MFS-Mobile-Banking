@@ -35,5 +35,24 @@ document.getElementById('btn-show-cashOut')
 // show transaction features 
 document.getElementById('btn-show-transaction')
 .addEventListener('click',function(){
-  showFeatures('transaction');
+  showFeatures('transaction-section');
+})
+
+//show transfer money features 
+document.getElementById('btn-show-transferMoney')
+.addEventListener('click',function(){
+  showFeatures('transferMoney-form');
+  
+})
+
+//show Get Bonus features
+document.getElementById('btn-show-bonus')
+.addEventListener('click',function(){
+  showFeatures('GetBonus-form');
+})
+
+// show PayBill features 
+document.getElementById('btn-show-payBill')
+.addEventListener('click',function(){
+  showFeatures('PayBill-form');
 })

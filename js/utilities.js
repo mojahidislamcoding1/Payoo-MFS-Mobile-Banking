@@ -20,7 +20,10 @@ function showFeatures (id){
   // hide all features 
   document.getElementById('add-money-form').classList.add('hidden');
   document.getElementById('cash-out-form').classList.add('hidden');
-  document.getElementById('transaction').classList.add('hidden');
+  document.getElementById('transaction-section').classList.add('hidden');
+  document.getElementById('transferMoney-form').classList.add('hidden');
+  document.getElementById('GetBonus-form').classList.add('hidden');
+  document.getElementById('PayBill-form').classList.add('hidden');
 
   // show provided features by id 
 
