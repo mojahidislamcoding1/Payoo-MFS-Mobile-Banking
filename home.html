@@ -20,19 +20,20 @@
         >
           <!-- available balance  -->
           <div>
-            <div class="stats shadow">
-              <div class="stat">
-                <div id="balance" class="stat-value">$9400</div>
-                <div class="stat-desc ">Avialable Balance</div>
+            <div class="stats shadow mx-8">
+              <div class="stat ">
+                <div id="balance" class="stat-value ">$9400</div>
+                <div class="stat-desc text-xl font-bold text-black ">Avialable Balance</div>
               </div>
             </div>
           </div>
            <div class="divider w-96"></div>
 
            <!-- user action button  -->
-            <div>
-              <button id="btn-show-addMoney" class="btn btn-xl">+ Add Money</button>
-              <button id="btn-show-cashOut" class="btn btn-xl">- Cash Out</button>
+            <div class="m-6">
+              <button id="btn-show-addMoney" class="btn btn-xl mx-3 ">+ Add Money</button>
+              <button id="btn-show-cashOut" class="btn btn-xl ">- Cash Out</button>
+              <button id="btn-show-transaction" class="btn btn-xl mt-6 mx-3"> Transaction </button>
             
             </div>
             <div class="divider"></div>
@@ -71,6 +72,11 @@
   </div>
     <!-- cash out end  -->
 
+    <!-- Transaction form starts  -->
+            <div>
+              <h2 id="transaction" class="text-5xl text-center mt-8 hidden">Transaction History</h2>
+            </div>
+    <!-- Transaction form End  -->
         </div>
       </div>
     </main>

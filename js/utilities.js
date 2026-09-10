@@ -13,3 +13,17 @@ function getInnerTextById (id){
   const innerTextNumber = parseFloat(innerText.replace('$',''));
   return innerTextNumber;
 }
+
+//create a reusable function to features option 
+
+function showFeatures (id){
+  // hide all features 
+  document.getElementById('add-money-form').classList.add('hidden');
+  document.getElementById('cash-out-form').classList.add('hidden');
+  document.getElementById('transaction').classList.add('hidden');
+
+  // show provided features by id 
+
+  document.getElementById(id).classList.remove('hidden');
+
+}
